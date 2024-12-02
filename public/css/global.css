@@ -35,6 +35,7 @@ body {
   border-radius: 20px;
   width: 80%;
 }
+
 .nav,
 .nav .nav-links {
   display: flex;
@@ -45,10 +46,12 @@ a {
   color: var(--text);
   text-decoration: none;
 }
+
 .nav .logo .logo-image {
   height: 35px;
   width: 35px;
 }
+
 .nav .logo {
   font-size: 22px;
   font-weight: 400 !important;
@@ -58,10 +61,12 @@ a {
   gap: 8px;
   transition: 300ms;
 }
+
 .nav .nav-links {
   column-gap: 20px;
   list-style: none;
 }
+
 .nav .nav-links a {
   transition: all 0.2s linear;
 }
@@ -183,7 +188,6 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-
   .nav .navOpenBtn,
   .nav .navCloseBtn {
     display: block;
